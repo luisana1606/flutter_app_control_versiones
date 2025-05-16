@@ -19,7 +19,6 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    // Mostrar alerta de bienvenida al iniciar
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _showWelcomeAlert(context);
     });
